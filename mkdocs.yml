@@ -1,7 +1,34 @@
-site_name: Cheatsheets
+# Project information
+site_name: 'Cheatsheets'
+site_description: 'A bunch of cheatsheets'
+site_author: 'Westwater'
+site_url: 'https://westwater.github.io/cheatsheets/'
 
+# Repository
+repo_name: 'westwater/cheatsheets'
+repo_url: 'https://github.com/westwater/cheatsheets'
+
+# Configuration
 theme:
   name: 'material'
+  language: 'en'
   palette:
     primary: 'blue'
     accent: 'indigo'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+
+# Customization
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/westwater'
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
