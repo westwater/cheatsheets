@@ -3,7 +3,7 @@
 
     
     <url>
-     <loc>/</loc>
+     <loc>https://westwater.github.io/cheatsheets//</loc>
      <lastmod>2018-03-15</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -11,15 +11,7 @@
 
     
     <url>
-     <loc>/about/</loc>
-     <lastmod>2018-03-15</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
-     <loc>/sbt/</loc>
+     <loc>https://westwater.github.io/cheatsheets//sbt/</loc>
      <lastmod>2018-03-15</lastmod>
      <changefreq>daily</changefreq>
     </url>
