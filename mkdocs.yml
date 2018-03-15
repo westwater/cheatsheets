@@ -3,5 +3,5 @@ site_name: Cheatsheets
 theme:
   name: 'material'
   palette:
-    primary: 'deep orange'
+    primary: 'blue'
     accent: 'indigo'
