@@ -1,6 +1,6 @@
-# Welcome to MkDocs
+# Home
 
-For full documentation visit [mkdocs.org](http://mkdocs.org).
+Random cheatsheets for things I keep forgetting
 
 ## Commands
 
@@ -8,10 +8,4 @@ For full documentation visit [mkdocs.org](http://mkdocs.org).
 * `mkdocs serve` - Start the live-reloading docs server.
 * `mkdocs build` - Build the documentation site.
 * `mkdocs help` - Print this help message.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+* `mkdocs gh-deploy` - deploy changes to github.
