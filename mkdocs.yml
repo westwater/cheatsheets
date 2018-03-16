@@ -8,6 +8,13 @@ site_url: 'https://westwater.github.io/cheatsheets/'
 repo_name: 'westwater/cheatsheets'
 repo_url: 'https://github.com/westwater/cheatsheets'
 
+# Pages
+pages:
+- Home: 'index.md'
+- Sbt:
+    - General: 'sbt/general.md'
+    - Build definition: 'sbt/build-definition.md'
+
 # Configuration
 theme:
   name: 'material'
