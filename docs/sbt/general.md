@@ -1,4 +1,4 @@
-# Sbt
+# General
 
 ## Creating a new Sbt project
 ___
@@ -16,14 +16,6 @@ To setup a new scala sbt project
 
 List of giter8 templates from official sources can be found [here](https://github.com/foundweekends/giter8/wiki/giter8-templates)
 
-## Layout
-___
-
-???
-
-## Build definition
-___
-
 ### Project sbt version
 - As part of your build definition, specify the version of sbt that your build uses.
 - Project will always build using the same version of Sbt, ignoring the global Sbt version.
@@ -31,6 +23,16 @@ ___
 Create a file named `project/build.properties` then specify the sbt version as follows:
 
 	sbt.version=0.13.17
+
+## Layout
+___
+
+???
+
+### Shell
+___
+
+???
 
 ## Plugins
 ___
