@@ -10,11 +10,19 @@
     
 
     
+        
     <url>
-     <loc>https://westwater.github.io/cheatsheets//sbt/</loc>
+     <loc>https://westwater.github.io/cheatsheets//sbt/Build_definition/</loc>
      <lastmod>2018-03-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
+    <url>
+     <loc>https://westwater.github.io/cheatsheets//sbt/general/</loc>
+     <lastmod>2018-03-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
     
 
 </urlset>

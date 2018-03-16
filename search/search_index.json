@@ -21,37 +21,47 @@
             "title": "Commands"
         }, 
         {
-            "location": "/sbt/", 
-            "text": "Sbt\n\n\nCreating a new Sbt project\n\n\n\n\nSbt has a command called new, to create new build definitions from a template.\n\n\nTo use \nsbt new\n you will need Sbt version 0.13.13 or above\n\n\n$ sbt sbtVersion\n\n 0.13.17\n\n\n\n\n\nTo setup a new scala sbt project\n\n\n$ sbt new scala/scala-seed.g8\n\n\n\n\n\nList of giter8 templates from official sources can be found \nhere\n\n\nLayout\n\n\n\n\n???\n\n\nBuild definition\n\n\n\n\nProject sbt version\n\n\n\n\nAs part of your build definition, specify the version of sbt that your build uses.\n\n\nProject will always build using the same version of Sbt, ignoring the global Sbt version.\n\n\n\n\nCreate a file named \nproject/build.properties\n then specify the sbt version as follows:\n\n\nsbt.version=0.13.17\n\n\n\n\n\nPlugins\n\n\n\n\n???", 
-            "title": "Sbt"
+            "location": "/sbt/Build_definition/", 
+            "text": "Build definition\n\n\n\n\n\n\nNote\n\n\nFor Sbt versions lower than \n0.13.7\n, Settings must be separated by blank lines", 
+            "title": "Build definition"
         }, 
         {
-            "location": "/sbt/#sbt", 
+            "location": "/sbt/Build_definition/#build-definition", 
+            "text": "Note  For Sbt versions lower than  0.13.7 , Settings must be separated by blank lines", 
+            "title": "Build definition"
+        }, 
+        {
+            "location": "/sbt/general/", 
+            "text": "General\n\n\nCreating a new Sbt project\n\n\n\n\nSbt has a command called new, to create new build definitions from a template.\n\n\nTo use \nsbt new\n you will need Sbt version 0.13.13 or above\n\n\n$ sbt sbtVersion\n\n 0.13.17\n\n\n\n\n\nTo setup a new scala sbt project\n\n\n$ sbt new scala/scala-seed.g8\n\n\n\n\n\nList of giter8 templates from official sources can be found \nhere\n\n\nProject sbt version\n\n\n\n\nAs part of your build definition, specify the version of sbt that your build uses.\n\n\nProject will always build using the same version of Sbt, ignoring the global Sbt version.\n\n\n\n\nCreate a file named \nproject/build.properties\n then specify the sbt version as follows:\n\n\nsbt.version=0.13.17\n\n\n\n\n\nLayout\n\n\n\n\n???\n\n\nShell\n\n\n\n\n???\n\n\nPlugins\n\n\n\n\n???", 
+            "title": "General"
+        }, 
+        {
+            "location": "/sbt/general/#general", 
             "text": "", 
-            "title": "Sbt"
+            "title": "General"
         }, 
         {
-            "location": "/sbt/#creating-a-new-sbt-project", 
+            "location": "/sbt/general/#creating-a-new-sbt-project", 
             "text": "Sbt has a command called new, to create new build definitions from a template.  To use  sbt new  you will need Sbt version 0.13.13 or above  $ sbt sbtVersion  0.13.17  To setup a new scala sbt project  $ sbt new scala/scala-seed.g8  List of giter8 templates from official sources can be found  here", 
             "title": "Creating a new Sbt project"
         }, 
         {
-            "location": "/sbt/#layout", 
-            "text": "???", 
-            "title": "Layout"
-        }, 
-        {
-            "location": "/sbt/#build-definition", 
-            "text": "", 
-            "title": "Build definition"
-        }, 
-        {
-            "location": "/sbt/#project-sbt-version", 
+            "location": "/sbt/general/#project-sbt-version", 
             "text": "As part of your build definition, specify the version of sbt that your build uses.  Project will always build using the same version of Sbt, ignoring the global Sbt version.   Create a file named  project/build.properties  then specify the sbt version as follows:  sbt.version=0.13.17", 
             "title": "Project sbt version"
         }, 
         {
-            "location": "/sbt/#plugins", 
+            "location": "/sbt/general/#layout", 
+            "text": "???", 
+            "title": "Layout"
+        }, 
+        {
+            "location": "/sbt/general/#shell", 
+            "text": "???", 
+            "title": "Shell"
+        }, 
+        {
+            "location": "/sbt/general/#plugins", 
             "text": "???", 
             "title": "Plugins"
         }
