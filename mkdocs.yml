@@ -14,6 +14,8 @@ pages:
 - Sbt:
     - General: 'sbt/general.md'
     - Build definition: 'sbt/build-definition.md'
+- Git:
+    - General: 'git/general.md'
 
 # Configuration
 theme:
