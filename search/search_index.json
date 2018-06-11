@@ -64,6 +64,21 @@
             "location": "/sbt/build-definition/#build-definition", 
             "text": "Note  For Sbt versions lower than  0.13.7 , Settings must be separated by blank lines", 
             "title": "Build definition"
+        }, 
+        {
+            "location": "/git/general/", 
+            "text": "General\n\n\nDifficulities rebasing\n\n\n\n\nIn a situation when you are working on a branch that has been off master for a while and haven't been rebasing, instead of using \n\n\ngit rebase master\n\n\n\n\n\nuse\n\n\ngit merge-base X Y\n546ae664634d9c44c\ngit reset --soft 546ae664634d9c44c\ngit commit -m \n???\n\ngit rebase master\n\n\n\n\n\n\n\nNote\n\n\nmerge-base finds the best common ancestor(s) between two commits.", 
+            "title": "General"
+        }, 
+        {
+            "location": "/git/general/#general", 
+            "text": "", 
+            "title": "General"
+        }, 
+        {
+            "location": "/git/general/#difficulities-rebasing", 
+            "text": "In a situation when you are working on a branch that has been off master for a while and haven't been rebasing, instead of using   git rebase master  use  git merge-base X Y\n546ae664634d9c44c\ngit reset --soft 546ae664634d9c44c\ngit commit -m  ??? \ngit rebase master   Note  merge-base finds the best common ancestor(s) between two commits.", 
+            "title": "Difficulities rebasing"
         }
     ]
 }
