@@ -67,7 +67,7 @@
         }, 
         {
             "location": "/git/general/", 
-            "text": "General\n\n\nDifficulities rebasing\n\n\n\n\nIn a situation when you are working on a branch that has been off master for a while and haven't been rebasing, instead of using \n\n\ngit rebase master\n\n\n\n\n\nuse\n\n\ngit merge-base X Y\n546ae664634d9c44c\ngit reset --soft 546ae664634d9c44c\ngit commit -m \n???\n\ngit rebase master\n\n\n\n\n\n\n\nNote\n\n\nmerge-base finds the best common ancestor(s) between two commits.", 
+            "text": "General\n\n\nmerge-base\n\n\n\n\n\n\nmerge-base finds the best common ancestor(s) between two commits.\n\n\n\n\nuseful for rebasing a stale branch onto master\n\n\n\n\n\n\nusage\n\n\nX is a commit\nY is the commit you want X to rebase onto\n\ngit merge-base X Y\n546ae664634d9c44c\ngit reset --soft 546ae664634d9c44c\ngit commit -m \n???\n\ngit rebase master\n\n\n\n\n\ncommit --amend\n\n\n\n\n\n\nThe --amend option is a convenient way to modify the most recent commit\n\n\n\n\nuseful for changing the commit message of the previous commit without resetting\n\n\nuseful for squashing changes into the previous commit without resetting\n\n\n\n\n\n\nusage\n\n\ngit commit --amend\n\n\n\n\n\n\n\nwill prompt you to open an editor\n\n\n\n\nTo amend the previous commit with a new commit message without opening an editor use:\n\n\ngit commit --amend -m \nan updated commit message\n\n\n\n\n\n\nTo simply squash staged changes into the previous commit without changing the commit message, use:\n\n\ngit commit --amend --no-edit", 
             "title": "General"
         }, 
         {
@@ -76,9 +76,24 @@
             "title": "General"
         }, 
         {
-            "location": "/git/general/#difficulities-rebasing", 
-            "text": "In a situation when you are working on a branch that has been off master for a while and haven't been rebasing, instead of using   git rebase master  use  git merge-base X Y\n546ae664634d9c44c\ngit reset --soft 546ae664634d9c44c\ngit commit -m  ??? \ngit rebase master   Note  merge-base finds the best common ancestor(s) between two commits.", 
-            "title": "Difficulities rebasing"
+            "location": "/git/general/#merge-base", 
+            "text": "merge-base finds the best common ancestor(s) between two commits.   useful for rebasing a stale branch onto master", 
+            "title": "merge-base"
+        }, 
+        {
+            "location": "/git/general/#usage", 
+            "text": "X is a commit\nY is the commit you want X to rebase onto\n\ngit merge-base X Y\n546ae664634d9c44c\ngit reset --soft 546ae664634d9c44c\ngit commit -m  ??? \ngit rebase master", 
+            "title": "usage"
+        }, 
+        {
+            "location": "/git/general/#commit-amend", 
+            "text": "The --amend option is a convenient way to modify the most recent commit   useful for changing the commit message of the previous commit without resetting  useful for squashing changes into the previous commit without resetting", 
+            "title": "commit --amend"
+        }, 
+        {
+            "location": "/git/general/#usage_1", 
+            "text": "git commit --amend   will prompt you to open an editor   To amend the previous commit with a new commit message without opening an editor use:  git commit --amend -m  an updated commit message   To simply squash staged changes into the previous commit without changing the commit message, use:  git commit --amend --no-edit", 
+            "title": "usage"
         }
     ]
 }

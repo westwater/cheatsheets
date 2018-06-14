@@ -2,22 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
      <loc>https://westwater.github.io/cheatsheets/</loc>
-     <lastmod>2018-06-11</lastmod>
+     <lastmod>2018-06-14</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://westwater.github.io/cheatsheets/sbt/general/</loc>
-     <lastmod>2018-06-11</lastmod>
+     <lastmod>2018-06-14</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://westwater.github.io/cheatsheets/sbt/build-definition/</loc>
-     <lastmod>2018-06-11</lastmod>
+     <lastmod>2018-06-14</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://westwater.github.io/cheatsheets/git/general/</loc>
-     <lastmod>2018-06-11</lastmod>
+     <lastmod>2018-06-14</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>

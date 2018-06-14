@@ -350,9 +350,42 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#difficulities-rebasing" title="Difficulities rebasing" class="md-nav__link">
-    Difficulities rebasing
+  <a href="#merge-base" title="merge-base" class="md-nav__link">
+    merge-base
   </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#usage" title="usage" class="md-nav__link">
+    usage
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#commit-amend" title="commit --amend" class="md-nav__link">
+    commit --amend
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#usage_1" title="usage" class="md-nav__link">
+    usage
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -393,9 +426,42 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#difficulities-rebasing" title="Difficulities rebasing" class="md-nav__link">
-    Difficulities rebasing
+  <a href="#merge-base" title="merge-base" class="md-nav__link">
+    merge-base
   </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#usage" title="usage" class="md-nav__link">
+    usage
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#commit-amend" title="commit --amend" class="md-nav__link">
+    commit --amend
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#usage_1" title="usage" class="md-nav__link">
+    usage
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -419,15 +485,19 @@
                 
                 
                 <h1 id="general">General<a class="headerlink" href="#general" title="Permanent link">&para;</a></h1>
-<h2 id="difficulities-rebasing">Difficulities rebasing<a class="headerlink" href="#difficulities-rebasing" title="Permanent link">&para;</a></h2>
+<h2 id="merge-base">merge-base<a class="headerlink" href="#merge-base" title="Permanent link">&para;</a></h2>
 <hr />
-<p>In a situation when you are working on a branch that has been off master for a while and haven't been rebasing, instead of using </p>
-<div class="codehilite"><pre><span></span>git rebase master
-</pre></div>
+<div class="admonition note">
+<p class="admonition-title">merge-base finds the best common ancestor(s) between two commits.</p>
+<ul>
+<li>useful for rebasing a stale branch onto master</li>
+</ul>
+</div>
+<h3 id="usage">usage<a class="headerlink" href="#usage" title="Permanent link">&para;</a></h3>
+<div class="codehilite"><pre><span></span>X is a commit
+Y is the commit you want X to rebase onto
 
-
-<p>use</p>
-<div class="codehilite"><pre><span></span>git merge-base X Y
+git merge-base X Y
 546ae664634d9c44c
 git reset --soft 546ae664634d9c44c
 git commit -m &quot;???&quot;
@@ -435,10 +505,31 @@ git rebase master
 </pre></div>
 
 
+<h2 id="commit-amend">commit --amend<a class="headerlink" href="#commit-amend" title="Permanent link">&para;</a></h2>
+<hr />
 <div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>merge-base finds the best common ancestor(s) between two commits.</p>
+<p class="admonition-title">The --amend option is a convenient way to modify the most recent commit</p>
+<ul>
+<li>useful for changing the commit message of the previous commit without resetting</li>
+<li>useful for squashing changes into the previous commit without resetting</li>
+</ul>
 </div>
+<h3 id="usage_1">usage<a class="headerlink" href="#usage_1" title="Permanent link">&para;</a></h3>
+<div class="codehilite"><pre><span></span>git commit --amend
+</pre></div>
+
+
+<div class="admonition warning">
+<p class="admonition-title">will prompt you to open an editor</p>
+</div>
+<p>To amend the previous commit with a new commit message without opening an editor use:</p>
+<div class="codehilite"><pre><span></span>git commit --amend -m &quot;an updated commit message&quot;
+</pre></div>
+
+
+<p>To simply squash staged changes into the previous commit without changing the commit message, use:</p>
+<div class="codehilite"><pre><span></span>git commit --amend --no-edit
+</pre></div>
                 
                   
                 
